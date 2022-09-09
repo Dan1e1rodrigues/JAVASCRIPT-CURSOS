@@ -18,5 +18,11 @@ alert(calculoservico);
 
 //Valores dos serviços.
 //declarando os valores 
+function calculo(servico,horas) {
+//preços
 let valores = ['R$10', 'R$20', 'R$30', 'R$40', 'R$50', 'R$60', 'R$70', 'R$80', 'R$90', 'R$100'];
+//serviço
+
+//calculo
+}
 
