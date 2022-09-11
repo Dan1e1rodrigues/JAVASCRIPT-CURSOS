@@ -50,6 +50,29 @@ alert(frase.replace("Japão", "Brasil"));
 // alert(fruta.cor); 
 
 //Segundo exemplo de biblioteca
-var frutas = [{nome:"Abacate", cor:"Verde",}, {nome:"Uva", cor:"Roxa"}, {nome:"Maça", cor:"Vermelha",}, {nome:"Laranja", cor:"Laranja",}, {nome:"Tangerina", cor:"Laranja",}];
-console.log(frutas);
-alert(frutas[4].nome);
+// var frutas = [{nome:"Abacate", cor:"Verde",}, {nome:"Uva", cor:"Roxa"}, {nome:"Maça", cor:"Vermelha",}, {nome:"Laranja", cor:"Laranja",}, {nome:"Tangerina", cor:"Laranja",}];
+
+// console.log(frutas);
+
+// alert(frutas[4].nome);
+
+function soma(n1, n2){
+    return n1 + n2;
+}
+
+var validar = 0;
+
+function validaIdade(idade){
+    if(idade >= 18){
+        validar = true  
+        alert("Você já e de maior")
+    }else{
+        validar = false
+        alert("Você ainda e de menor faça novamente o login")
+    }
+    return validar;
+}
+
+var idade = prompt("Qual e a sua idade guerreiro(a)?")
+validaIdade(idade);
+console.log(validar);
